@@ -1,0 +1,109 @@
+
+
+Week 1
+======
+
+Theory
+-------
+
+1. Convert the following decimal numbers into binary and hexidecimal:
+    * 14
+    * 63
+    * 255
+    * 300
+
+2. Convert the following binary numbers into and decimal and hexidecimal:
+
+    * 00101000
+    * 10111010
+    * 01100110
+
+3. Add the following numbers in binary (show your working and carry-bits)
+
+    * 00101000 + 10110010
+    * 01101011 + 00110001
+    * 10101011 + 10110001 (notice what happens).
+
+4. Write the following hexidecimal as binary and as decimal:
+  
+   * 01
+   * 0B
+   * 66
+   * C5
+   * FF
+
+
+Digital Circuits
+----------------
+
+
+
+Python 
+-------
+
+
+1. What are the types of the following (use the 'type()' function):
+    * 6
+    * 6+8
+    * 3*2
+    * 4.3
+    * 6 + 4.3
+    * [3,4,5]
+    * [3,4,5] + [2,3]
+    * "Hello"
+    * "Hello" + " world"
+
+2. Given the list of floats:
+
+    ~~~~~~~~~~~~~~~~~~~~~~~~
+    heights = [1.82, 1.70, 1.68, 1.85, 1.78, 1.58]
+    ~~~~~~~~~~~~~~~~~~~~~~~~
+
+    write a for-loop that 
+
+        i. adds all the numbers up
+        ii. finds the mean
+
+
+3. Given a list that contains 8 '0's and '1's, for example:
+
+    ~~~~~~~~~~~~~~~~~~~~~~~~
+    bits = [0,1,1,0, 0,0,1,0]
+    ~~~~~~~~~~~~~~~~~~~~~~~~
+    write code that turns this into a decimal number and print it out.
+
+
+4. (Harder) You can join 2 strings with '+', for example:
+
+    ~~~~~~~~~~~~~~~~~~~
+    mystring = "Hello" + " " + "world"
+    ~~~~~~~~~~~~~~~~~~~~
+
+    given a list of strings
+
+    ~~~~~~~~~~~~~~~~~~~~
+    list_of_strs = ["Alpha","Beta","Gamma","Delta"]
+    ~~~~~~~~~~~~~~~~~~~~
+
+    use a loop to turn this into a single string:
+
+    ~~~~~~~~~~~~~~~~~~~~
+    "Alpha - Beta - Gamma - Delta"
+    ~~~~~~~~~~~~~~~~~~~~
+
+
+Linux
+-------
+
+There are lots of excellent programs for linux. Try installing the
+following (sudo apt-get install XX):
+
+     inkscape
+     chromium-browser
+     frozen-bubble
+
+Once they are installed, you can either run them from the commandline-or find
+them on the start menu.
+
+
+
