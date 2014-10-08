@@ -107,3 +107,66 @@ them on the start menu.
 
 
 
+
+Week 2
+=======
+
+Types & Operators in Python
+----------------------------
+What is the resulting type of the following operations on types? (Note, that not
+all of them are valid!)
+
+  * *int* + *int* =>
+  * *int* - *int* =>
+  * *int*  *  *int* =>
+  * *int* / *int* =>
+
+<!-- asd -->
+
+  * *float* + *float* =>
+  * *float* - *float* =>
+  * *float* * *float* =>
+  * *float* / *float* =>
+
+<!-- asd -->
+
+  * *float* + *int* =>
+  * *float* - *int* =>
+  * *float* * *int* =>
+  * *float* / *int* =>
+
+<!-- asd -->
+
+  * *int* + *float* =>
+  * *int* - *float* =>
+  * *int* * *float* =>
+  * *int* / *float* =>
+
+<!-- asd -->
+
+  * *string* + *string* =>
+  * *string* - *string* =>
+  * *string* * *string* =>
+  * *string* / *string* =>
+
+<!-- asd -->
+
+  * *string* + *int* =>
+  * *string* - *int* =>
+  * *string* * *int* =>
+  * *string* / *int* =>
+
+<!-- asd -->
+
+  * *list* + *list* =>
+  * *list* - *list* =>
+  * *list* * *list* =>
+  * *list* / *list* =>
+
+<!-- asd -->
+
+  * *list* * *int* =>
+  * *int* * *list* =>
+  * *list* * *float* =>
+  * *string* * *int* =>
+
