@@ -170,3 +170,75 @@ all of them are valid!)
   * *list* * *float* =>
   * *string* * *int* =>
 
+
+
+
+Week 3
+======
+
+
+Python
+------
+
+
+
+
+What are the values of:
+
+~~~~~~~~~~~~~~~~~~~~~~~~
+a = [1,2,3] + [4,5,6]
+b = [[1,2,3]] + [ [4,5,6], [7,8,9] ]
+c = a[0]
+d = b[1]
+e = b[1][2]
+
+f = ['Hello', 'world']
+g = f[1]
+h = f[0] + f[1]
+i = [f[0], f[1]]
+j = [g,h,g]
+k = str( a[0] ) + str( a[1] )
+l =  a[0] + a[1]
+
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+Python is excellent at processing strings:
+https://docs.python.org/2/library/stdtypes.html#string-methods
+Try out some string methods:
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+n = "Hello, world"
+o = n.split(",")
+p = n.replace("Hello","Goodbye")
+q = n.endswith('world')
+r = n.startswith('world')
+s = n.startswith('Hello')
+t = n.lower()
+t = n.upper()
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+Interacting with real-life data:
+
+     * Open up Excel, or OpenOffice.
+     * Put some numbers into the first column.
+     * Click "Save As...", and save the file as a CSV-file.
+     * Look at the file in your text editor (Sublime or gedit)
+     * You can read the text in this file into a big string in Python using:
+
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        f = open("filename.csv")
+        data = list(f.readlines())
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+depending on how the data is delimited (i.e., split into columns), work out how
+to print the rows on the screen.
+
+
+
+
+
+
+
+
+
